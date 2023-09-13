@@ -32,14 +32,16 @@ h1{
     
 
 }
-
+a{
+    text-decoration: none;
+}
 nav li{
     
     list-style-type: none;
     display: inline-block;
     padding: 2px;
    
-    text-decoration: none;
+    
     color: grey;
     font-style: Source Sans Pro;
     justify-content: space-between;
