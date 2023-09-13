@@ -8,6 +8,7 @@ body{
     background: #eee;
     font-family: Source Sans Pro;
     font-size: small;
+    
 }
 
 
@@ -32,14 +33,28 @@ h1{
 a{
     text-decoration: none;
 }
+
+nav{
+    position: sticky;
+    top: 5px;
+    background-color: #eee;
+    opacity: .9;
+}
+nav ul{
+   
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
 nav li{
     
     list-style-type: none;
     display: inline-block;
+    
     padding: .5em;
-    color: grey;
+    color: black;
     font-style: Source Sans Pro;
-    justify-content: space-between;
+    
+    
 }
 nav a{
     color: grey
@@ -59,7 +74,7 @@ main h2{
 
 main h5{
     font-family: Roboto Slab;
-
+ color: darkred;
 }
 main img {
     width: 100%;
@@ -72,4 +87,21 @@ main img {
     font-family: Roboto Slab;
     width: 45%;
     margin: 1em
+}
+
+/* footer*/
+
+
+footer ul{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    padding: .5em;
+    color: grey;
+    font-style: Source Sans Pro;
+    
 }
