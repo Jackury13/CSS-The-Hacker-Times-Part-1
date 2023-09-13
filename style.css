@@ -7,9 +7,7 @@
 body{
     background: #eee;
     font-family: Source Sans Pro;
-     font-family: Roboto Slab;
     font-size: small;
-    color: grey;
 }
 
 
@@ -17,7 +15,6 @@ h1{
     text-align: center;
     font-family: Abril Fatface;
     font-size: 2.5em;
-    border-bottom: 1px solid grey;
     padding-bottom: 10px;
 }    
     
@@ -39,30 +36,40 @@ nav li{
     
     list-style-type: none;
     display: inline-block;
-    padding: 2px;
-   
-    
+    padding: .5em;
     color: grey;
     font-style: Source Sans Pro;
     justify-content: space-between;
 }
+nav a{
+    color: grey
+}
  
-main p {
+p {
     border-bottom : 1px solid grey;
     padding-bottom: 2em;
-    color: grey;
-    font-family: Roboto Slab;
-    font-size: small;
-    width: 700px;
     text-align: justify;
 }
-main img {
-    width: 700px;
+
+/* main article*/
+
+main h2{
+    font-family: Roboto Slab;
 }
 
-.more-articles {
-    display: inline-block
+main h5{
     font-family: Roboto Slab;
-    font-size: small;
-    color: grey;
+
+}
+main img {
+    width: 100%;
+}
+
+/* small articles */
+
+.more-articles section {
+    display: inline-block;
+    font-family: Roboto Slab;
+    width: 45%;
+    margin: 1em
 }
